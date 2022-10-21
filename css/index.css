@@ -1,0 +1,62 @@
+/*----------------------------------------------
+------------------STYLES MOVIL------------------
+------------------------------------------------*/
+
+/*------------GENERAL-----------*/
+
+.index_layout {
+    height: 100vh;
+}
+/*------------NAV-----------*/
+
+nav {
+    height: 10vh;
+    background: #9A9A9A;
+}
+.body_nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+/*------------BODY IMAGES----------*/
+
+.body_main {
+    height: 90vh;
+    background-color: #E8E8E8;
+
+}
+.content_title  {
+	height: 30%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_images {
+    height: 70% ;
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20% 20%;
+
+
+}
+
+.main_images li{
+	background-color: #9A9A9A;
+	border: 1px solid white;
+
+}
+
+
+
+
+/*------------BODY-NAVS----------*/
+
+.body_project {
+    height: 100vh;
+    background-color: #DADADA;
+}
