@@ -7,21 +7,7 @@
 .index_layout {
     height: 100vh;
 }
-/*------------NAV-----------*/
 
-nav {
-    height: 10vh;
-    background: #9A9A9A;
-}
-.body_nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 90%;
-    height: 100%;
-    margin: 0 auto;
-}
 /*------------BODY IMAGES----------*/
 
 .body_main {
