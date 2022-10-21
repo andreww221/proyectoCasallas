@@ -27,36 +27,37 @@ nav {
 .body_main {
     height: 90vh;
     background-color: #E8E8E8;
-
 }
-.content_title  {
-	height: 30%;
+.content_title {
+    height: 30%;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .main_images {
-    height: 70% ;
-	display: grid;
-	grid-template-columns: 20% 20% 20% 20% 20%;
-
-
+    height: 70%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
 }
-
-.main_images li{
-	background-color: #9A9A9A;
-	border: 1px solid white;
-
+.main_images li {
+    background-color: #9A9A9A;
+    border: 1px solid white;
 }
-
-
-
-
 /*------------BODY-NAVS----------*/
 
 .body_project {
     height: 100vh;
     background-color: #DADADA;
+}
+/*---------- RESPONSIVE PC --------- */
+
+@media (min-width: 1025px) {
+    .main_images {
+        grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    }
+    .body_nav {
+        justify-content: center;
+        column-gap: 10rem;
+    }
 }
