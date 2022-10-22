@@ -1,13 +1,15 @@
+/*-------******ESTILOS MOVIL******-----------*/
+
 /*-------GALLERY MAIN-------- */
 
-.gallery_title {
+.Gmain_title {
     height: 20vh;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.gallery_images {
+.Gmain_images {
     width: 90%;
     margin: 0 auto;
     display: grid;
@@ -16,29 +18,22 @@
     gap: 1rem;
     margin-bottom: 10rem;
 }
-.gallery_images li {
+.Gmain_image {
     width: 100%;
     height: 200px;
     background-color: #9A9A9A;
 }
-/********* RESPONSIVE TABLET ***********************/
+/*-------******ESTILOS TABLET******-----------*/
 
 @media (min-width: 765px) {
-    .gallery_images {
+    .Gmain_images {
         grid-template-columns: 33% 33% 33%;
     }
 }
-
-
-
-/********* RESPONSIVE PC ***********************/
-
-
+/*-------******ESTILOS PC******-----------*/
 
 @media (min-width: 1024px) {
-    .gallery_images {
+    .Gmain_images {
         grid-template-columns: 25% 25% 25% 25%;
     }
 }
-
-

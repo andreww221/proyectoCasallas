@@ -1,48 +1,45 @@
-/*----------------------------------------------
-------------------STYLES MOVIL------------------
-------------------------------------------------*/
+/*-------******ESTILOS MOVIL******-----------*/
 
 /*------------GENERAL-----------*/
 
-.index_layout {
+.index_container {
     height: 100vh;
 }
+/*------------ MAIN INDEX ----------*/
 
-/*------------BODY IMAGES----------*/
-
-.body_main {
+.Imain {
     height: 90vh;
     background-color: #E8E8E8;
 }
-.content_title {
+.Imain_title {
     height: 30%;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.main_images {
+.Imain_images {
     height: 70%;
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
 }
-.main_images li {
+.Imain_image {
     background-color: #9A9A9A;
     border: 1px solid white;
 }
-/*------------BODY-NAVS----------*/
+/*------------SECTION PROJECT----------*/
 
-.body_project {
+.Psection {
     height: 100vh;
     background-color: #DADADA;
 }
-/*---------- RESPONSIVE PC --------- */
+/*-------******RESPONSIVE PC******-----------*/
 
 @media (min-width: 1025px) {
-    .main_images {
+    .Imain_images {
         grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
     }
-    .body_nav {
+    .navbar_elements {
         justify-content: center;
         column-gap: 10rem;
     }
