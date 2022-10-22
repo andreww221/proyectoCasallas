@@ -126,7 +126,7 @@
 
     .Imain {
     height: auto;
-¿
+
 }
 }
 /*-------******RESPONSIVE TABLET******-----------*/
@@ -140,7 +140,7 @@
 
 @media (min-width: 1025px) {
     .Imain_images {
-        width: 80%;
+        width: 70%;
         grid-template-columns: 20% 20% 20% 20% 20%;
         grid-template-rows: 50% 50%;
         margin: 0 auto;
@@ -158,5 +158,15 @@
     }
     .element_movil {
         display: none;
+    }
+
+     .Imain {
+    height: 90vh;
+
+}
+
+ .Imain_title {
+        margin-top: 2rem;
+        margin-bottom: 0;
     }
 }
