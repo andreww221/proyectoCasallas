@@ -1,24 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,700&display=swap');
 /* variables globales */
 
 :root {
-    /* colors */
     --color-black: #000000;
     --color-white: #ffffff;
     --color-yellow-oscuro: #D5D52E;
     --color-naranja-oscuro: #D16B04;
-    /* font sizes */
     --font-normal-m: 1.6rem;
     --font-mediana-m: 1.8rem;
     --font-grande-m: 2.1rem;
     --font-extragrande-m: 2.5rem;
-    /* fonts family */
-    /* Text Neon  */
-    --text-neon-white: 0 0 5px #ffffff, 0 0 10px #ffffff;
-    --text-neon-green: 0 0 5px #48E635, 0 0 10px #48E635;
-    --text-neon-red: 0 0 5px #FF0000, 0 0 10px #FF0000, 0 0 15px #FF0000, 0 0 55px #FF0000, 0 0 75px #FF0000;
-    /*    --text-neon-yellow: 0 0 5px #E4E635, 0 0 10px #E4E635, 0 0 15px #E4E635;*/
-    --text-neon-yellow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #F5FF00, 0 0 45px #F5FF00;
-    --text-neon-yellow-grande: 0 0 5px #FFF, 0 0 10px #F5FF00, 0 0 15px #F5FF00, 0 0 45px #F5FF00, 0 0 50px #F5FF00;
 }
 /* reset default values */
 
@@ -26,7 +17,6 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
     box-sizing: border-box;
 }
 /* customizable image */
@@ -47,11 +37,14 @@ body {
 }
 /********************* GENERALES *****************************/
 
+a, p, h1, h2, h3, h4, h5, h6 {
+    color: white !important;
+}
 /*------------NAV-----------*/
 
 nav {
     height: 10vh;
-    background: #9A9A9A;
+    background: black;
 }
 .navbar_elements {
     display: flex;
@@ -62,7 +55,15 @@ nav {
     height: 100%;
     margin: 0 auto;
 }
+.navbar_element {
+    font-family: 'EB Garamond', serif;
+    font-size: var(--font-mediana-m);
+}
+@media (min-width: 768px) {}
 @media (min-width: 1025px) {
+    .navbar_element {
+        font-size: var(--font-grande-m);
+    }
     .navbar_elements {
         justify-content: center;
         column-gap: 10rem;

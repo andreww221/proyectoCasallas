@@ -1,16 +1,28 @@
-
-
 /*-------******ESTILOS MOVIL******-----------*/
 
+/*-----GENERALS----*/
+
+.element1 {
+    text-shadow: none;
+}
+.element2 {
+    text-shadow: none;
+}
+.element3 {
+    color: #fff;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #bc13fe, 0 0 82px #bc13fe, 0 0 92px #bc13fe, 0 0 102px #bc13fe, 0 0 151px #bc13fe;
+}
+/*------BODY--------*/
+
+.contact-container {
+    background-color: black;
+}
 /*-------CONTACT MAIN-------- */
 
-
-
-.IFmain{
-  height: 20vh;
+.IFmain {
+    height: 20vh;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
