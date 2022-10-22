@@ -35,6 +35,81 @@
     display: grid;
     grid-template-rows: 25% 25% 25% 25% 25%;
     grid-template-columns: 25% 25% 25% 25%;
+    displa: none;
+}
+@keyframes example10 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.element_block {
+    opacity: 0;
+    background-color: gray;
+    grid-column: 2/5;
+    animation: example10 4s;
+    animation-delay: 2.1s;
+    transition: animation 4s;
+    animation-fill-mode: forwards;
+}
+.element_block1 {
+    opacity: 0;
+    background-color: gray;
+    grid-column: 1/4;
+    animation: example10 4s;
+    animation-delay: 2.1s;
+    transition: animation 4s;
+    animation-fill-mode: forwards;
+}
+@keyframes example1 {
+    0% {
+        transform: translateX(-600%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes example2 {
+    0% {
+        transform: translateX(600%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes example3 {
+    0% {
+        transform: translateX(-600%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes example4 {
+    0% {
+        transform: translateX(600%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+.elementos1linea {
+    animation-name: example1 !important;
+    animation-duration: 2s;
+}
+.elementos2linea {
+    animation-name: example2 !important;
+    animation-duration: 2s;
+}
+.elementos3linea {
+    animation-name: example3 !important;
+    animation-duration: 2s;
+}
+.elementos4linea {
+    animation-name: example4 !important;
+    animation-duration: 2s;
 }
 .Imain_image {
     background-color: #9A9A9A;
@@ -123,19 +198,12 @@
     body {
         background-color: black;
     }
-
     .Imain {
-    height: auto;
-
-}
-}
-/*-------******RESPONSIVE TABLET******-----------*/
-
-@media (min-width:412px) {
-    .Imain_images {
         height: auto;
     }
 }
+/*-------******RESPONSIVE TABLET******-----------*/
+
 /*-------******RESPONSIVE PC******-----------*/
 
 @media (min-width: 1025px) {
@@ -156,17 +224,29 @@
     .Imain_images {
         height: 70%;
     }
-    .element_movil {
+    .element_block {
         display: none;
     }
-
-     .Imain {
-    height: 90vh;
-
-}
-
- .Imain_title {
+    .element_block1 {
+        display: none;
+    }
+    .Imain {
+        height: 90vh;
+    }
+    .Imain_title {
         margin-top: 2rem;
         margin-bottom: 0;
+    }
+    .elementos1linea {
+        animation: none;
+    }
+    .elementos2linea {
+        animation: none;
+    }
+    .elementos3linea {
+        animation: none;
+    }
+    .elementos4linea {
+        animation: none;
     }
 }
