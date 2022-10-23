@@ -33,7 +33,7 @@
 .Imain_images {
     height: 80%;
     display: grid;
-    grid-template-rows:  25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
     grid-template-columns: 25% 25% 25% 25%;
     displa: none;
 }
@@ -47,15 +47,22 @@
 }
 .element_block {
     opacity: 0;
+    text-align: center;
     background-color: gray;
     grid-column: 2/5;
-        color: white;
+    color: white;
     animation: example10 3.5s;
     animation-delay: 1s;
     transition: animation 3.5s;
     animation-fill-mode: forwards;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .element_block1 {
+    text-align: center;
     opacity: 0;
     color: white;
     background-color: gray;
@@ -64,6 +71,11 @@
     animation-delay: 1s;
     transition: animation 3.5s;
     animation-fill-mode: forwards;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 @keyframes example1 {
     0% {
@@ -120,6 +132,7 @@
 /*------------SECTION PROJECT----------*/
 
 .Psection_container {
+    text-align: center;
     height: 100vh;
     background-color: var(--color-black);
 }
