@@ -59,7 +59,6 @@ nav {
     font-family: 'EB Garamond', serif;
     font-size: var(--font-mediana-m);
 }
-@media (min-width: 768px) {}
 @media (min-width: 1025px) {
     .navbar_element {
         font-size: var(--font-grande-m);
@@ -72,5 +71,42 @@ nav {
         width: 80%;
         justify-content: right;
         column-gap: 10rem;
+    }
+}
+/*------------FOOTER-----------*/
+
+.Ifooter {
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+.Ifooter_copy {
+    text-align: center;
+}
+.Ifooter_container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    justify-content: space-between;
+    padding-bottom: 5rem;
+}
+
+
+.Ifooter_logo{
+    width: 150px;
+}
+
+@media (min-width: 768px) {
+    .Ifooter_container {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5rem;
+        justify-content: space-between;
+        padding-bottom: 5rem;
     }
 }
