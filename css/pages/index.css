@@ -52,7 +52,7 @@
     grid-column: 2/5;
     color: white;
     animation: example10 3.5s;
-    animation-delay: 1s;
+    animation-delay: 1.5s;
     transition: animation 3.5s;
     animation-fill-mode: forwards;
     width: 100%;
@@ -68,7 +68,7 @@
     background-color: gray;
     grid-column: 1/4;
     animation: example10 3.5s;
-    animation-delay: 1s;
+    animation-delay: 1.5s;
     transition: animation 3.5s;
     animation-fill-mode: forwards;
     width: 100%;
@@ -111,19 +111,18 @@
 }
 .elementos1linea {
     animation-name: example1 !important;
-    animation-duration: 2s;
-}
+    animation-duration: 3s;}
 .elementos2linea {
     animation-name: example2 !important;
-    animation-duration: 2s;
+    animation-duration: 3s;
 }
 .elementos3linea {
     animation-name: example3 !important;
-    animation-duration: 2s;
+    animation-duration: 3s;
 }
 .elementos4linea {
     animation-name: example4 !important;
-    animation-duration: 2s;
+    animation-duration: 3s;
 }
 .Imain_image {
     background-color: #9A9A9A;
