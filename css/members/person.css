@@ -1,12 +1,10 @@
 /*-------******ESTILOS MOVIL******-----------*/
 
-
 /*-------BODY-------- */
 
-body{
+body {
     background-color: black;
 }
-
 /*-------PERSONA MAIN-------- */
 
 .Bmain {
@@ -18,16 +16,55 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    gap: 10rem;
+    justify-content: space-evenly;
     margin-top: 5rem;
     margin-bottom: 5rem;
 }
 .Bmain_section {
     width: 100%;
-
-    background-color: gray;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
 }
+
+#imagen {
+    width: 100%;
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-position: center center ;
+    background-size: contain;
+    transition: background-image 1s ;
+   
+
+}
+
+.carrusel {
+    position: relative;
+
+}
+
+#retroceder {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    padding-left: 1rem;
+}
+
+#avanzar {
+
+    position: absolute;
+    top: 50%;
+    right: 0;
+    padding-right: 1rem;
+
+}
+
+.imagenes_tmp{
+    margin-top: 10rem;
+}
+
+
 /*-------******ESTILOS TABLET******-----------*/
 
 @media (min-width: 768px) {
@@ -48,9 +85,8 @@ body{
 
 @media (min-width: 1024px) {
     .Bmain {
-
         width: 80%;
-        margin:  0 auto;
+        margin: 0 auto;
     }
     .Bmain_container {
         display: grid;
@@ -72,6 +108,5 @@ body{
     .Bmain_section {
         width: 100%;
         height: 100%;
-        background-color: gray;
     }
 }
