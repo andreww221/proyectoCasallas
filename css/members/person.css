@@ -163,7 +163,12 @@ body {
         width: 40%;
     }
     #imagen {
+           min-height: 50rem;
         background-size: contain;
+    }
+
+     .row3{
+        min-height: 50rem;
     }
     /*  .Bmain_container {
         display: grid;

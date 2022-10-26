@@ -261,4 +261,11 @@
     .elementos4linea {
         animation: none;
     }
+    .row3{
+        min-height: 70rem;
+    }
+
+
+
+  
 }
