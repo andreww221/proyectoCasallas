@@ -28,43 +28,58 @@ body {
     border-radius: 3px;
 }
 
+.row4{
+    margin: 0 !important;
+}
+
+.icon_insta{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 30px;
+}
+
+
 #imagen {
     width: 100%;
     height: 30rem;
     background-repeat: no-repeat;
-    background-position: center center ;
-    background-size: contain;
-    transition: background-image 1s ;
-   
-
+    background-position: center center;
+    background-size: cover;
+    transition: background-image 1s;
 }
+/* pruebas */
 
 .carrusel {
     position: relative;
-
 }
-
 #retroceder {
     position: absolute;
     top: 50%;
     left: 0;
     padding-left: 1rem;
 }
-
+#retroceder:hover {
+    cursor: pointer;
+}
 #avanzar {
-
     position: absolute;
     top: 50%;
     right: 0;
     padding-right: 1rem;
-
 }
-
-.imagenes_tmp{
+#avanzar:hover {
+    cursor: pointer;
+}
+.imagenes_tmp {
     margin-top: 10rem;
 }
 
 
+.row2 {
+    padding: 2rem;
+    font-size: 2.3rem;
+
+}
 /*-------******ESTILOS TABLET******-----------*/
 
 @media (min-width: 768px) {
