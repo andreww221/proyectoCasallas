@@ -61,7 +61,7 @@ body {
     height: 30rem;
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
+    background-size: contain;
     transition: background-image 1s;
 }
 /*seccion de contacto */
@@ -82,28 +82,51 @@ body {
 
 @media (min-width: 768px) {
     .Bmain_container {
-        width: 80%;
+        width: 70%;
         margin: 0 auto;
         padding-bottom: 10rem;
+        padding-top: 5rem;
     }
 }
 /*-------******ESTILOS PC******-----------*/
 
 @media (min-width: 1024px) {
-    .Bmain {
-        width: 80%;
-        margin: 0 auto;
-    }
     .Bmain_container {
         display: grid;
-        grid-template-columns: 33% 33% 33%;
-        grid-template-rows: 33% 33% 33%;
-        grid-column-gap: 2rem;
+        grid-template-columns: 50% 50%;
+        grid-column-gap: 5rem;
+        grid-row-gap: 2rem;
+    }
+    #imagen {
+        width: 100%;
+        min-height: 50rem;
+
+
+    }
+    .Bmain_title {
+        grid-row: 1/2;
+        grid-column: 1/2;
+    }
+    .Bmain_member {
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+    .Bmain_biography {
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+    .Bmain_contacto {
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+    .row3 {
+        grid-row: 2/3;
+        height: 100%;
     }
 
+    .Bmain_member{
+        width: 100%;
+        height: 100%;
+    }
 
-
-
-  
- 
 }
